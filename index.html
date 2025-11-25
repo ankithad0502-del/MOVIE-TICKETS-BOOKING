@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>🚌 Online Bus Booking</h1></header>
+
+<div class="container">
+    <h2>Select Travel Details</h2>
+
+    <label>From:</label>
+    <input type="text" id="from" placeholder="Enter departure city">
+
+    <label>To:</label>
+    <input type="text" id="to" placeholder="Enter destination city">
+
+    <label>Date of Journey:</label>
+    <input type="date" id="date">
+
+    <label>Select Bus:</label>
+    <select id="bus">
+        <option value="SRS Travels">SRS Travels - ₹650</option>
+        <option value="VRL Travels">VRL Travels - ₹720</option>
+        <option value="KPN Travels">KPN Travels - ₹700</option>
+    </select>
+
+    <button onclick="goToSeats()">Search Bus</button>
+</div>
+
+<footer><p>© 2025 Online Bus Booking</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
